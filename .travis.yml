@@ -7,5 +7,4 @@ services:
 
 script:
   - make image
-  - make notebook
 
