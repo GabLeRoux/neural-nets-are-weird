@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
 COPY caffe.patch /tmp/caffe.patch
 
 ENV CAFFE_REVISION cc521a0801143c242f5da0e95737070c02ce15ab
-RUN git clone --depth 1 https://github.com/BVLC/caffe.git /opt/caffe \
+RUN git clone https://github.com/BVLC/caffe.git /opt/caffe \
   && cd /opt/caffe \
   && git reset --hard $CAFFE_REVISION \
   && patch -p1 < /tmp/caffe.patch \
