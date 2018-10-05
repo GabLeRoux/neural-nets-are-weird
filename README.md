@@ -1,5 +1,7 @@
 # neural nets are weird
 
+[![Build Status](https://travis-ci.com/jvns/neural-nets-are-weird.svg?branch=master)](https://travis-ci.com/jvns/neural-nets-are-weird)
+
 Source code for the article [How to trick a neural network into thinking a panda is a vulture](https://codewords.recurse.com/issues/five/why-do-neural-networks-think-a-panda-is-a-vulture). Here's how to get it going! It will download about 1.5GB and take maybe half an hour to set up and compile everything, so don't expect it to be instant. Tested on Linux and OS X.
 
 ```
